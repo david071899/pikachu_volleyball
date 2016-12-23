@@ -24,21 +24,72 @@
 1419988854 source:c:\users\davy\desktop\final_project\pikachu\kb_input2.c
 	"kb_input2.h"
 
-1482480643 source:c:\users\davy\desktop\final_project\pikachu\main.c
+1482500434 source:c:\users\davy\desktop\final_project\pikachu\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<time.h>
 	<windows.h>
 	<math.h>
-	"image.h"
-	"console_draw3.h"
-	"kb_input2.h"
+	"./tool_function/image.h"
+	"./tool_function/console_draw3.h"
+	"./tool_function/kb_input2.h"
 	"header.h"
+	"./game_function/initial_round.h"
+	"./game_function/initial_object.h"
 
-1482480643 c:\users\davy\desktop\final_project\pikachu\header.h
-	"image.h"
+1482499288 c:\users\davy\desktop\final_project\pikachu\header.h
+	"./tool_function/image.h"
 
 1482481548 source:c:\users\davy\desktop\final_project\pikachu\initial_round.c
 	"header.h"
+
+1482482355 source:c:\users\davy\desktop\final_project\pikachu\function\initial_round.c
+	"initial_round.h"
+
+1482498669 c:\users\davy\desktop\final_project\pikachu\function\initial_round.h
+	"../header.h"
+
+1482482355 source:c:\users\davy\desktop\final_project\pikachu\game_function\initial_round.c
+	"initial_round.h"
+
+1482498669 c:\users\davy\desktop\final_project\pikachu\game_function\initial_round.h
+	"../header.h"
+
+1419989930 c:\users\davy\desktop\final_project\pikachu\tool_function\image.h
+
+1482069776 c:\users\davy\desktop\final_project\pikachu\tool_function\console_draw3.h
+
+1197486290 c:\users\davy\desktop\final_project\pikachu\tool_function\kb_input2.h
+	<windows.h>
+
+1481702210 source:c:\users\davy\desktop\final_project\pikachu\tool_function\console_draw3.c
+	<windows.h>
+	<string.h>
+	"console_draw3.h"
+
+1482333668 source:c:\users\davy\desktop\final_project\pikachu\tool_function\image.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	"console_draw3.h"
+	"kb_input2.h"
+	"image.h"
+
+1419988854 source:c:\users\davy\desktop\final_project\pikachu\tool_function\kb_input2.c
+	"kb_input2.h"
+
+1482499805 source:c:\users\davy\desktop\final_project\pikachu\game_function\initial_pikachu.c
+	"initial_pikachu.h"
+
+1482499805 c:\users\davy\desktop\final_project\pikachu\game_function\initial_pikachu.h
+	"../header.h"
+
+1482500441 source:c:\users\davy\desktop\final_project\pikachu\game_function\initial_object.c
+	"initial_object.h"
+
+1482500329 c:\users\davy\desktop\final_project\pikachu\game_function\initial_object.h
+	"../header.h"
 

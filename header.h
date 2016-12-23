@@ -1,4 +1,6 @@
-#include "image.h"
+#include "./tool_function/image.h"
+#ifndef HEADER_
+#define HEADER_
 
 typedef struct _pikachu {
     int x;
@@ -52,7 +54,7 @@ typedef struct _ball {
 #define STAY 0
 #define JUMP 1
 // pikachu jump a
-#define JUMP_INITIAL_SPEED -2.5
+#define JUMP_INITIAL_SPEED -3.5
 // stick position
 #define STICK_POS_X 300
 #define STICK_POS_Y 90
@@ -75,3 +77,5 @@ typedef struct _ball {
 #define GROUND_LINE_X 0
 #define GROUND_LINE_Y 180
 
+
+#endif
